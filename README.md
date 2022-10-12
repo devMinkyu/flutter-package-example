@@ -132,14 +132,19 @@ AssetGenImage get imageTest1 => const AssetGenImage('assets/images/image_test1.p
 AssetGenImage get imageTest2 => const AssetGenImage('assets/images/image_test2.png');
 
 Widget build(BuildContext context) {
-  return Assets.images.profile.image();
+  return Assets.images.imageTest1.image();
 }
 ```
 
 Link: [FlutterGen](https://pub.dev/packages/flutter_gen)
 
 ### OSSLicenses
-Link: [OSSLicenses](https://pub.dev/packages/flutter_oss_licenses)
+
+> 프로젝트에서 쓰이고 있는 패키지 OSSLicenses 에 정보를 코드로 생성해주어서 가져다 쓸수 있겠끔 도와주는 라이브러리 입니다.
+
+
+
+Link: [OSSLicenses][https://pub.dev/packages/flutter_oss_licenses]
 
 ### Retrofit
 Link: [Retrofit](https://pub.dev/packages/retrofit)

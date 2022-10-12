@@ -110,7 +110,7 @@ function(
 > 예시 화면
 
 ## 유용한 패키지
-Link: [플러터 라이브러리 모음 사이트][https://pub.dev/]
+Link: [플러터 라이브러리 모음 사이트](https://pub.dev/)
 
 ### FlutterGen
 
@@ -136,16 +136,16 @@ Widget build(BuildContext context) {
 }
 ```
 
-Link: [AssetsGen][https://pub.dev/packages/flutter_gen]
+Link: [FlutterGen](https://pub.dev/packages/flutter_gen)
 
 ### OSSLicenses
-Link: [OSSLicenses][https://pub.dev/packages/flutter_oss_licenses]
+Link: [OSSLicenses](https://pub.dev/packages/flutter_oss_licenses)
 
 ### Retrofit
-Link: [Retrofit][https://pub.dev/packages/retrofit]
+Link: [Retrofit](https://pub.dev/packages/retrofit)
 
 ### freezed
-Link: [freezed][https://pub.dev/packages/freezed]
+Link: [freezed](https://pub.dev/packages/freezed)
 
 ### FVM
 
@@ -179,7 +179,7 @@ fvm use 2.0.5
 6. 안드로이드 스튜디오에서 SDK path 수정
 |로컬 SDK(기본)|FVM SDK|
 |---|---|
-|asd|das|
+|<img width="1013" alt="스크린샷 2022-10-12 오전 8 35 27" src="https://user-images.githubusercontent.com/23225222/195220526-4b1ba760-5832-45fe-8803-ba7365c415cd.png">|<img width="997" alt="스크린샷 2022-10-12 오전 8 35 43" src="https://user-images.githubusercontent.com/23225222/195220531-b87dea5b-efa2-4211-8864-1f28eb8e12b0.png">|
 7. gitignore에 해당 파일 추가
 ```shell
 .fvm
@@ -199,4 +199,4 @@ fvm flutter pub get
 fvm flutter clean
 ```
 
-Link: [FVM][https://fvm.app/]
+Link: [FVM](https://fvm.app/)

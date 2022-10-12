@@ -72,6 +72,27 @@ function(
 )
 ```
 
+4. 고차함수
+
+```dart
+  // same (int) -> int
+  static void highOrderFunction1(int Function(int) test) {}
+
+  // same (int) -> Unit
+  static void highOrderFunction2(Function(int) test) {}
+
+  // same () -> Unit
+  static void highOrderFunction3(Function test) {}
+
+  static void highOrderFunctionStart() {
+    highOrderFunction1((p0) {
+      return p0;
+    });
+    highOrderFunction2((p0) {});
+    highOrderFunction3(() {});
+  }
+```
+
 ## Flutter
 
 ### Stateful vs Stateless
@@ -91,11 +112,31 @@ function(
 ## 유용한 패키지
 Link: [플러터 라이브러리 모음 사이트][https://pub.dev/]
 
-### AssetsGen
+### FlutterGen
 
-> Flutter에서는 로컬 이미지를 사용하기 위해서는  
+> Flutter에서는 로컬 이미지를 사용하기 위해서는 해당 이미지에 path를 다 써야해서 개발자 실수가 나올 수 있지만, 해당 라이브러리를 사용하게 되면, 자동으로 코드로 generate 해주기 때문에 사용하기 쉽고 실수 없이 이미지를 가져다 쓸수 있게끔 도와주는 라이브러리입니다.
 
-Link: [AssetsGen][https://pub.dev/packages/assets_gen]
+#### 예시
+
+- 사용하기 전
+```dart
+Widget build(BuildContext context) {
+  return Image.asset('assets/images/image_test1.png');
+}
+```
+
+- 사용하기 후
+```dart
+/// generate 되는 코드
+AssetGenImage get imageTest1 => const AssetGenImage('assets/images/image_test1.png');
+AssetGenImage get imageTest2 => const AssetGenImage('assets/images/image_test2.png');
+
+Widget build(BuildContext context) {
+  return Assets.images.profile.image();
+}
+```
+
+Link: [AssetsGen][https://pub.dev/packages/flutter_gen]
 
 ### OSSLicenses
 Link: [OSSLicenses][https://pub.dev/packages/flutter_oss_licenses]

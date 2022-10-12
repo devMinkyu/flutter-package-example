@@ -177,9 +177,11 @@ fvm list
 fvm use 2.0.5
 ```
 6. 안드로이드 스튜디오에서 SDK path 수정
-|로컬 SDK(기본)|FVM SDK|
+
+|FVM SDK|로컬 SDK(기본)|
 |---|---|
 |<img width="1013" alt="스크린샷 2022-10-12 오전 8 35 27" src="https://user-images.githubusercontent.com/23225222/195220526-4b1ba760-5832-45fe-8803-ba7365c415cd.png">|<img width="997" alt="스크린샷 2022-10-12 오전 8 35 43" src="https://user-images.githubusercontent.com/23225222/195220531-b87dea5b-efa2-4211-8864-1f28eb8e12b0.png">|
+
 7. gitignore에 해당 파일 추가
 ```shell
 .fvm

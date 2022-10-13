@@ -162,7 +162,7 @@ Link: [freezed](https://pub.dev/packages/freezed)
 
 ### FVM
 
-Flutter는 Android 랑 다르게 SDK가 로컬로 다운을 받아서 관리하기 때문에, 버전을 올려서 개발 시 다른 프로젝트와도 맞춰야하고, 이 전에 나온 이슈가 있을 시에는 다시 downgrade를 해주고 다시 돌아와서 작업할 땐 upgrade를 해줘야함
+Flutter는 Android 랑 다르게 SDK가 로컬로 다운을 받아서 관리하기 때문에, 버전을 올려서 개발 시 다른 프로젝트에서 해당 SDK 버전을 맞춰야하고, 이 전에 나온 이슈가 있을 시에는 다시 downgrade 를 해주고 다시 돌아와서 작업할 땐 upgrade 를 해줘야함
 
 > Flutter Version Management의 약자로 Flutter SDK 버전을 프로젝트 별로 다르게 적용할 수 있게끔 도와주는 라이브러리입니다.
 

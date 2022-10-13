@@ -10,20 +10,20 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   freezed_annotation: 2.1.0
-  retrofit: 3.0.1+1
-  json_annotation: 4.6.0
-
+  retrofit: ^3.3.1
+  json_annotation: ^4.7.0
+  analyzer: ^5.1.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  build_runner: 2.2.0
-  flutter_gen_runner: 4.3.0
-  json_serializable: 6.3.1
-  copy_with_extension_gen: 4.0.3
+  build_runner: ^2.3.0
+  flutter_gen_runner: ^5.0.2
+  json_serializable: ^6.5.1
+  copy_with_extension_gen: 4.0.4
   flutter_oss_licenses: 2.0.1
-  retrofit_generator: 4.0.3+1
-  freezed: 2.1.0+1
+  retrofit_generator: ^4.2.0
+  freezed: ^2.1.1
 flutter_gen:
   output: lib/gen/
   line_length: 120

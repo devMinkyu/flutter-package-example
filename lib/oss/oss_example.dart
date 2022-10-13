@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_package_example/freezed/user_freezed.dart';
 import 'package:flutter_package_example/oss_licenses.dart';
 
 class OssScreen extends StatelessWidget {

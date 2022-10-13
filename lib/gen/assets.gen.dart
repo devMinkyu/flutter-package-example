@@ -5,7 +5,7 @@
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
-// ignore_for_file: directives_ordering,unnecessary_import
+// ignore_for_file: directives_ordering,unnecessary_import,implicit_dynamic_list_literal
 
 import 'package:flutter/widgets.dart';
 
@@ -17,6 +17,9 @@ class $AssetsImagesGen {
 
   /// File path: assets/images/image_test2.png
   AssetGenImage get imageTest2 => const AssetGenImage('assets/images/image_test2.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [imageTest1, imageTest2];
 }
 
 class Assets {
@@ -82,6 +85,8 @@ class AssetGenImage {
       cacheHeight: cacheHeight,
     );
   }
+
+  ImageProvider provider() => AssetImage(_assetName);
 
   String get path => _assetName;
 

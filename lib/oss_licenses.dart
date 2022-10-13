@@ -8,7 +8,7 @@ const ossLicenses = <Package>[
     description: 'Logic that is shared between the front_end and analyzer packages.',
     repository: 'https://github.com/dart-lang/sdk/tree/main/pkg/_fe_analyzer_shared',
     authors: [],
-    version: '47.0.0',
+    version: '49.0.0',
     license: '''Copyright 2019, the Dart project authors.
 
 Redistribution and use in source and binary forms, with or without
@@ -45,7 +45,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
     description: 'This package provides a library that performs static analysis of Dart code.',
     repository: 'https://github.com/dart-lang/sdk/tree/main/pkg/analyzer',
     authors: [],
-    version: '4.7.0',
+    version: '5.1.0',
     license: '''Copyright 2013, the Dart project authors.
 
 Redistribution and use in source and binary forms, with or without
@@ -75,7 +75,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
     isMarkdown: false,
     isSdk: false,
-    isDirectDependency: false,
+    isDirectDependency: true,
   ),
   Package(
     name: 'args',
@@ -340,7 +340,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
     description: 'A build system for Dart code generation and modular compilation.',
     repository: 'https://github.com/dart-lang/build/tree/master/build_runner',
     authors: [],
-    version: '2.2.0',
+    version: '2.3.0',
     license: '''Copyright 2016, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
@@ -950,7 +950,7 @@ SOFTWARE.''',
     homepage: 'https://github.com/numen31337/copy_with_extension/tree/master/copy_with_extension_gen',
     repository: 'https://github.com/numen31337/copy_with_extension',
     authors: [],
-    version: '4.0.3',
+    version: '4.0.4',
     license: '''MIT License
 
 Copyright (c) 2019 Oleksandr Kirichenko
@@ -1668,7 +1668,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
     homepage: 'https://github.com/FlutterGen/flutter_gen',
     repository: 'https://github.com/FlutterGen/flutter_gen',
     authors: [],
-    version: '4.3.0',
+    version: '5.0.2',
     license: '''MIT License
 
 Copyright (c) 2020-2021 FlutterGen
@@ -1700,7 +1700,7 @@ SOFTWARE.''',
     homepage: 'https://github.com/FlutterGen/flutter_gen',
     repository: 'https://github.com/FlutterGen/flutter_gen',
     authors: [],
-    version: '4.3.0',
+    version: '5.0.2',
     license: '''MIT License
 
 Copyright (c) 2020-2021 FlutterGen
@@ -1797,9 +1797,9 @@ SOFTWARE.''',
     name: 'freezed',
     description: '''Code generation for immutable classes that has a simple syntax/API without compromising on the features.
 ''',
-    homepage: 'https://github.com/rrousselGit/freezed',
+    repository: 'https://github.com/rrousselGit/freezed',
     authors: [],
-    version: '2.1.0+1',
+    version: '2.1.1',
     license: '''MIT License
 
 Copyright (c) 2020 Remi Rousselet
@@ -2121,7 +2121,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
     description: 'Classes and helper functions that support JSON code generation via the `json_serializable` package.',
     repository: 'https://github.com/google/json_serializable.dart/tree/master/json_annotation',
     authors: [],
-    version: '4.6.0',
+    version: '4.7.0',
     license: '''Copyright 2017, the Dart project authors. All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -2157,7 +2157,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
     description: 'Automatically generate code for converting to and from JSON by annotating Dart classes.',
     repository: 'https://github.com/google/json_serializable.dart/tree/master/json_serializable',
     authors: [],
-    version: '6.3.1',
+    version: '6.5.1',
     license: '''Copyright 2017, the Dart project authors. All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -2809,7 +2809,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
     homepage: 'https://mings.in/retrofit.dart/',
     repository: 'https://github.com/trevorwang/retrofit.dart/',
     authors: [],
-    version: '3.0.1+1',
+    version: '3.3.1',
     license: '''MIT License
 
 Copyright (c) 2019 Trevor Wang
@@ -2841,7 +2841,7 @@ SOFTWARE.''',
     homepage: 'https://mings.in/retrofit.dart/',
     repository: 'https://github.com/trevorwang/retrofit.dart/',
     authors: [],
-    version: '4.0.3+1',
+    version: '4.2.0',
     license: '''MIT License
 
 Copyright (c) 2019 Trevor Wang

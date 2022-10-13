@@ -1,10 +1,10 @@
-
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'user_freezed.freezed.dart';
+part 'user_freezed.g.dart';
 
 @freezed
-class UserFreezed  with _$UserFreezed{
+class UserFreezed with _$UserFreezed {
   const factory UserFreezed({
     required String id,
     required String name,
@@ -12,7 +12,6 @@ class UserFreezed  with _$UserFreezed{
     required bool isMen,
   }) = _UserFreezed;
 
-
-  factory UserFreezed.fromJson(Map<String, Object?> json)
-  => _$UserFreezedFromJson(json);
+  factory UserFreezed.fromJson(Map<String, dynamic> json) =>
+      _$UserFreezedFromJson(json);
 }

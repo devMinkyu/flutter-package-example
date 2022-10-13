@@ -2,7 +2,7 @@
 
 ## Flutter란?
 
-> Flutter는 Google에서 개발하고 Mobile World Congress 2018에서 최초 베타 릴리스를 발표하면서 새롭게 소개된 크로스 플랫폼 모바일 앱 개발 프레임워크입니다. 또한 개발자가 iOS와 Android 두 OS에 대해 고품질 기본 인터페이스를 제작하는 데 도움을 주는 크로스 플랫폼 프레임워크라고 할 수 있습니다. 기존 UI를 모두 버리고 자체적으로 UI를 렌더링하기 때문에 iOS에서 material 디자인과 ripple 애니메이션 을 볼 수 있고 Android 에서 cupertino 디자인을 볼 수 있습니다. 마치 화면 전체를 2D 그래픽 API로 fillRect 하고 drawText drawImage 해서 앱을 만드는 것처럼 Flutter 엔진이 Skia 기반으로 렌더링 해줍니다. 웹 개발에서 HTML을 모두 무시하고 전체를 flash나 canvas로 만드는 것과 같습니다
+> Flutter는 Google에서 개발하고 Mobile World Congress 2018에서 최초 베타 릴리스를 발표하면서 새롭게 소개된 크로스 플랫폼 모바일 앱 개발 프레임워크입니다. 플러터 프레임워크는 소스 코드를 네이티브 CPU 머신 코드로 직접 컴파일 하며 UI를 렌더링 엔진 Skia로 직접 렌더링하기 때문에 성능이 뛰어나다. 소프트웨어 디자이너의 선택에 따라 iOS 앱에서 구글의 Material 테마 디자인과 Ripple 애니메이션을 사용하는 것이 가능하고 반대로 안드로이드에서 애플의 Cupertino 테마를 적용하는 것도 가능하다. 즉 플랫폼에 관계없이 플러터용 테마 디자인 라이브러리 적용 및 테마(Theme) 커스텀이 가능하다는 뜻이다. 각 OS의 네이티브 Widget/UI 컴포넌트로 변환하지 않고 플러터의 렌더링 엔진인 스키아로 직접 플랫폼 캔버스 상에 그리기 때문에 성능이 높고 어느 운영체제에서나 픽셀 퍼펙트한 소프트웨어 디자인이 가능하다.
 
 ## Dart
 
@@ -142,14 +142,22 @@ Link: [FlutterGen](https://pub.dev/packages/flutter_gen)
 
 > 프로젝트에서 쓰이고 있는 패키지 OSSLicenses 에 정보를 코드로 생성해주어서 가져다 쓸수 있겠끔 도와주는 라이브러리 입니다.
 
-
-
-Link: [OSSLicenses][https://pub.dev/packages/flutter_oss_licenses]
+Link: [OSSLicenses](https://pub.dev/packages/flutter_oss_licenses)
 
 ### Retrofit
+
+> 안드로이드 Retrofit 이랑 동일하게 사용할 수 있게 해주는 라이브러리 입니다.
+
 Link: [Retrofit](https://pub.dev/packages/retrofit)
 
 ### freezed
+
+> flutter 판 DataClass 입니다.
+
+1. Flutter 내 서버 통신을 위해 Json을 생성하기 위해서는 [json_serializable](https://pub.dev/packages/json_serializable) 라는 라이브러리를 사용하여서 각각 변수들에 annotation을 넣어준 뒤 generate를 해줘야함
+2. [CopyWith](https://pub.dev/packages/copy_with_extension_gen) 를 사용하고 싶으면 json이랑 동일하게 DTO 상단에 annotation을 넣어줘야함
+3. 이러한 불편한 요소들을 통합, DTO 응답값 선언 후 생성사 클래스에 값을 넣어줘야하는 중복 코드 X
+
 Link: [freezed](https://pub.dev/packages/freezed)
 
 ### FVM

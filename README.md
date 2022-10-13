@@ -10,6 +10,8 @@
 
 ### Dart vs Kotlin
 
+[Dart 기초 문법](https://devmg.tistory.com/175)
+
 1. 선언 방식
 
 ```dart
